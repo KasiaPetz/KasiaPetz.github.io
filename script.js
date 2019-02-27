@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://calm-headland-47343.herokuapp.com/v1/task/getTasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const apiRoot = 'https://calm-headland-47343.herokuapp.com/v1/task';
+  const trelloApiRoot = 'https://trello.com/kasiapetz/boards';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
